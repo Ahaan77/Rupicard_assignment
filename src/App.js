@@ -9,7 +9,7 @@ function App() {
     <div>
       <header className='header'>
         <div className='header-box'>
-          <img className='uni' src="/logo.svg" />
+          <img className='uni' src="/logo.svg" alt="logo" />
           {size.width > 768 ? <div className='mt-4 cursor-pointer visited:text-white text-white font-medium hover:text-[#7DEDDD] bg-black bg-opacity-60 hover:bg-black rounded-xl py-[9px] px-[30px]'>
             Uni Paychek
           </div> : <img className='h-4 mt-5' src='/hamburger.svg' alt="hamburger" />}
@@ -18,7 +18,7 @@ function App() {
       <div>
         <div className='relative h-[100vh] w-full flex items-center justify-center'>
           <div className='flex flex-col md:flex-row-reverse mx-auto max-w-[1280px] w-full justify-center z-1 bg-transparent'>
-            <img src="https://www.uni.cards/images/nx-wave/nx_wave_hero.png" className='h-auto w-[225px] md:w-[420px] md:h-[420px] max-w-[420px] z-[1] mx-6' />
+            <img src="https://www.uni.cards/images/nx-wave/nx_wave_hero.png" className='h-auto w-[225px] md:w-[420px] md:h-[420px] max-w-[420px] z-[1] mx-6' alt="wave" />
             <div className='z-10 w-full mt-7 md:mt-0 md:my-auto flex flex-col self-end md:self-center px-6'>
               <h1 className='font-normal max-w-[300px] md:max-w-[700px] text-3xl md:text-[3.4rem] md:leading-[54px] text-black md:mb-6 tracking-wide '>
                 <span>
@@ -89,7 +89,7 @@ function App() {
             </div>
             <div className='flex md:justify-center py-12' style={{ opacity: 1, transform: 'none' }}>
               <div className='flex w-[96px] md:w-[150px] h-[96px] md:h-[150px] rounded-[50%] justify-center arrow'>
-                <img src="https://www.uni.cards/images/down_arrow.svg" loading='lazy' className='w-9 md:w-14 css-0' />
+                <img src="https://www.uni.cards/images/down_arrow.svg" loading='lazy' className='w-9 md:w-14 css-0' alt="arrow" />
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ function App() {
               <div className='w-full my-10 md:my-0 lg:pt-0 lg:w-[50%]'>
                 <div className='flex justify-center overflow-hidden'>
                   <div className='relative w-[280px] lg:w-[448px]'>
-                    <img src="https://www.uni.cards/images/one_percent_cashback.png" />
+                    <img src="https://www.uni.cards/images/one_percent_cashback.png" alt="cashback" />
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@ function App() {
               <div className='w-full my-10 md:my-0 lg:pt-0 lg:w-[50%]'>
                 <div className='flex justify-center overflow-hidden'>
                   <div className='relative w-[280px] lg:w-[448px]'>
-                    <img src="https://www.uni.cards/images/forex_globe.png" />
+                    <img src="https://www.uni.cards/images/forex_globe.png" alt="globe" />
                   </div>
                 </div>
               </div>
@@ -300,7 +300,7 @@ function App() {
         <div className='relative w-full bg-black-2'>
           <div className='flex items-center justify-center p-4 text-gray-400'>
             <p>Uni maintains the highest level of security standards</p>
-            <img className='ml-3 w-20 css-0' src='https://www.uni.cards/images/pcidss_cert.svg' />
+            <img className='ml-3 w-20 css-0' src='https://www.uni.cards/images/pcidss_cert.svg' alt="cert" />
           </div>
         </div>
         <footer className='flex flex-col items-center bg-black-12 text-white pt-[30px] px-4 md:px-14 md:pt-[50px] pb-40'>
