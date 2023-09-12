@@ -46,6 +46,14 @@
   font-weight: 500;
 }
 
+.mobile-menu-bg {
+  background: rgba(0,0,0,.6);
+}
+
+.css-5z988z {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
 
 @media (max-width: 1150px) {
   .Main {

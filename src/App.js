@@ -6,6 +6,7 @@ function App() {
 
   const size = useWindowSize();
   const [open, setOpen] = useState(false)
+  const [menu, setMenu] = useState(false)
 
   return (
     <div>
@@ -14,8 +15,18 @@ function App() {
           <img className='uni' src="/logo.svg" alt="logo" />
           {size.width > 768 ? <div className='mt-4 cursor-pointer visited:text-white text-white font-medium hover:text-[#7DEDDD] bg-black bg-opacity-60 hover:bg-black rounded-xl py-[9px] px-[30px]'>
             Uni Paychek
-          </div> : <img className='h-4 mt-5' src='/hamburger.svg' alt="hamburger" />}
+          </div> : <img onClick={() => setMenu(!menu)} className='h-4 mt-5' src='/hamburger.svg' alt="hamburger" />}
         </div>
+        {menu === true ? <div style={{ opacity: 1 }} className='text-white mobile-menu-bg shadow-lg absolute w-full top-24 '>
+          <div className='p-4 px-5 font-medium text-sm leading-7 css-5z988z'>
+            <a className='flex justify-between'>
+              <span>Uni Paychek</span>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </span>
+            </a>
+          </div>
+        </div> : null}
       </header>
       <div>
         <div className='relative h-[100vh] w-full flex items-center justify-center'>
