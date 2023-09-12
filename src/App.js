@@ -76,15 +76,15 @@ function App() {
                 5X
               </p>
               <p style={{ opacity: 1, transform: 'none' }}>
-                more value than cashback<span className='head mx-2'> at the Uni store. Enjoy</span>
+                more value than cashback<span className='head'> at the Uni store. Enjoy</span>
               </p>
 
               <p style={{ opacity: 1, transform: 'none' }}>
-                <span className='head text-[#9EA7AE] mx-2'> round the clock</span>
-                Whatsapp support.<span className='head text-[#9EA7AE] mx-2'> And it's</span>
+                <span className='head text-[#9EA7AE]'> round the clock </span>
+                Whatsapp support.<span className='head text-[#9EA7AE]'> And it's</span>
               </p>
               <p style={{ opacity: 1, transform: 'none' }}>
-                lifetime free<span className='head mx-2'>; no joining fee, no annual charges.</span>
+                lifetime free<span className='head'>; no joining fee, no annual charges.</span>
               </p>
             </div>
             <div className='flex md:justify-center py-12' style={{ opacity: 1, transform: 'none' }}>
@@ -112,18 +112,13 @@ function App() {
                     </div>
                   </div>
                 </div>
-
-
               </div>
               <div className='w-full my-10 md:my-0 lg:pt-0 lg:w-[50%]'>
                 <div className='flex justify-center overflow-hidden'>
                   <div className='relative w-[280px] lg:w-[448px]'>
                     <img src="https://www.uni.cards/images/one_percent_cashback.png" />
-
                   </div>
-
                 </div>
-
               </div>
             </div>
             <div className='flex md:items-center flex-col-reverse md:flex-row-reverse w-full font-medium justify-center  md:pt-[70px] py-0 md:py-[60px] md:px-8'>
@@ -171,13 +166,9 @@ function App() {
                 <span className='block sm:inline-block md:text-center'>No joining fee. </span>
                 <span className='block md:text-center'> No annual charges.</span>
               </p>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
       <section className='py-12 lg:py-[100px] bg-black py-8 relative'>
         <img src="https://www.uni.cards/images/circles.png" alt="circles" className='absolute top-0 h-auto w-[70%]' />
@@ -191,15 +182,11 @@ function App() {
               0% hassle, 100% paperless. Get your
               <br></br>
               Uni Card instantly.
-
             </p>
-
           </div>
           <div className='m-auto w-full md:w-[450px] h-auto md:flex-[50%]'>
             <img src="https://www.uni.cards/images/nx-wave/app_screen_1.webp" className='m-auto w-[80%] h-auto css-1e2fy0l' alt="aa" />
-
           </div>
-
         </div>
         <div className='w-full max-w-7xl mx-auto px-6 md:px-4  md:flex relative py-6'>
           <div className='mx-auto w-full flex-[50%] flex-grow-0 my-auto'>
@@ -209,17 +196,12 @@ function App() {
             </p>
             <p className='text-[#BFC9CC] text-[14px] md:text-2xl'>
               Set your own payment limits. Choose how and where you spend. Lock and unlock your card. All right from the app.
-
             </p>
-
           </div>
           <div className='m-auto w-full md:w-[450px] h-auto md:flex-[50%]'>
             <img src="https://www.uni.cards/images/nx-wave/app_screen_2.webp" className='m-auto w-[80%] h-auto css-1e2fy0l' alt="aa" />
-
           </div>
-
         </div>
-
       </section>
       <section className='py-12 lg:py-[100px] bg-black'>
         <div className='w-full max-w-7xl mx-auto px-6 md:px-4  md:flex md:justify-between'>
@@ -227,103 +209,74 @@ function App() {
             <div className='flex-[50%] flex-shrink-0 flex w-full'>
               <div className='w-full h-36 relative'>
                 <img className='absolute md:relative md:left-auto md:-translate-x-0 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-20 md:w-28 h-auto mx-auto md:mx-0' src="https://www.uni.cards/images/nx-wave/whatsapp_bubble.webp" alt="jj" />
-
               </div>
-
             </div>
             <div className='flex-[50%] flex flex-col'>
               <p className='font-medium text-base text-white leading-[18px] md:text-2xl'>
                 Help, just a WhatsApp away. Anytime, Anyday.
-
               </p>
               <p className='text-sm text-gray-400 mt-2 md:text-lg'>
                 <span>
                   During hectic work hours. On lazy sunday mornings. In the thick of
                   night. Anytime.
                 </span>
-
               </p>
-
-
             </div>
-
           </div>
           <div className='flex flex-row-reverse w-full items-center md:flex-col md:max-w-xs my-12 md:my-0'>
             <div className='flex-[50%] flex-shrink-0 flex w-full'>
               <div className='w-full h-36 relative'>
                 <img className='absolute md:relative md:left-auto md:-translate-x-0 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-20 md:w-28 h-auto mx-auto md:mx-0' src="https://www.uni.cards/images/nx-wave/rupee_bubble.webp" alt="jj" />
-
               </div>
-
             </div>
             <div className='flex-[50%] flex flex-col'>
               <p className='font-medium text-base text-white leading-[18px] md:text-2xl'>
                 No hidden charges, no last minute surprises.
-
               </p>
               <p className='text-sm text-gray-400 mt-2 md:text-lg'>
                 <span>
                   100% money back guarantee if a charge is applied without your
                   knowledge.
                 </span>
-
               </p>
-
-
             </div>
-
           </div>
           <div className='flex false w-full items-center md:flex-col md:max-w-xs my-12 md:my-0'>
             <div className='flex-[50%] flex-shrink-0 flex w-full'>
               <div className='w-full h-36 relative'>
                 <img className='absolute md:relative md:left-auto md:-translate-x-0 left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-20 md:w-28 h-auto mx-auto md:mx-0' src="https://www.uni.cards/images/nx-wave/antivirus_bubble.webp" alt="jj" />
-
               </div>
-
             </div>
             <div className='flex-[50%] flex flex-col'>
               <p className='font-medium text-base text-white leading-[18px] md:text-2xl'>
                 Super secure. Because we care about your money.
-
               </p>
               <p className='text-sm text-gray-400 mt-2 md:text-lg'>
                 <span>
                   <img className='mt-[24px]' src="https://www.uni.cards/images/pcidss_cert.svg" alt="pci" />
                 </span>
-
               </p>
-
-
             </div>
-
           </div>
-
         </div>
-
       </section>
       <section className='py-12 lg:py-[100px] bg-[#222627] lg:py-[120px]'>
         <div className='w-full max-w-7xl mx-auto px-6 md:px-4  md:flex md:flex-col text-left md:text-center'>
           <p className='mx-auto text-[28px] font-medium md:text-[40px] md:max-w-6xl text-white leading-[1.2]'>
             <span>At Uni, we’re committed to<span className='bg-gradient-to-r from-[#00dcc8] to-[#fff061] bg-clip-text text-transparent'> delivering an unmatched credit experience </span> for millions of Indians.</span>
-
           </p>
           <p className='mt-6 max-w-[500px] mx-auto text-[#BFC9CC] text-2xl'>On this mission, we’ve partnered with some of the best in the business.</p>
           <div className='md:mt-24 flex flex-row justify-center flex-wrap'>
             <div className='flex justify-center w-[100px] md:w-44 mt-10 md:mt-0 md:mx-8 mx-4'>
               <img className='h-full w-full' src="https://www.uni.cards/images/SBM.svg" alt="sbm" />
-
             </div>
-
           </div>
-
         </div>
-
       </section>
       <div className='flex justify-center items-center text-center text-[#BFC9CC] text-base sm:text-xl md:text-2xl bg-black py-16 px-5 sm:px-8 md:px-12'>
         <p className='max-w-3xl'>
           Please note that to stay compliant with RBI guidelines, we have discontinued Pay 1/3rd and Pay 1/2 cards for the time being.
         </p>
-
       </div>
       <section className='py-12 lg:py-[100px] bg-background-gradient lg:py-[100px] bg-cover download-bg'>
         <div className='w-full max-w-7xl mx-auto px-6 md:px-4  md:flex md:justify-around items-center my-4'>
@@ -340,11 +293,8 @@ function App() {
                 <g clip-path="url(#clip0)"><path d="M4.71676 15.6999C4.40143 15.4893 4.12143 15.2313 3.88743 14.9333C3.63209 14.6246 3.39543 14.2999 3.17809 13.9639C2.66743 13.2173 2.26809 12.4006 1.99143 11.5399C1.65809 10.5386 1.49609 9.57994 1.49609 8.64194C1.49609 7.59527 1.72276 6.68194 2.16409 5.91527C2.49076 5.31527 2.97743 4.81327 3.56409 4.4606C4.13076 4.10727 4.79076 3.91393 5.45743 3.9006C5.69076 3.9006 5.94409 3.93393 6.21076 4.0006C6.40409 4.05393 6.63743 4.1406 6.92409 4.24727C7.29076 4.38727 7.49076 4.47393 7.55743 4.49393C7.77076 4.57394 7.95076 4.60727 8.09076 4.60727C8.19743 4.60727 8.35076 4.57394 8.52076 4.5206C8.61743 4.48727 8.80076 4.42727 9.06076 4.31393C9.31809 4.2206 9.52209 4.1406 9.68409 4.0806C9.93076 4.00727 10.1694 3.9406 10.3841 3.90727C10.6441 3.86727 10.9021 3.85393 11.1494 3.87393C11.6228 3.90727 12.0561 4.00727 12.4428 4.15393C13.1228 4.42727 13.6714 4.85394 14.0808 5.4606C13.9074 5.56727 13.7474 5.69127 13.5974 5.82727C13.2728 6.11394 12.9974 6.45394 12.7774 6.8306C12.4908 7.34394 12.3441 7.92394 12.3481 8.5106C12.3581 9.2326 12.5414 9.86727 12.9081 10.4173C13.1661 10.8173 13.5108 11.1599 13.9308 11.4413C14.1374 11.5813 14.3188 11.6779 14.4908 11.7413C14.4108 11.9913 14.3228 12.2346 14.2208 12.4746C13.9894 13.0126 13.7141 13.5279 13.3874 14.0146C13.0994 14.4346 12.8728 14.7479 12.7008 14.9546C12.4328 15.2746 12.1741 15.5146 11.9141 15.6859C11.6274 15.8759 11.2908 15.9766 10.9461 15.9766C10.7128 15.9866 10.4794 15.9566 10.2568 15.8919C10.0634 15.8286 9.87276 15.7573 9.68609 15.6766C9.49076 15.5873 9.28876 15.5113 9.08276 15.4499C8.82943 15.3833 8.56943 15.3513 8.30676 15.3519C8.04009 15.3519 7.78009 15.3853 7.53343 15.4486C7.32676 15.5073 7.12676 15.5793 6.92876 15.6653C6.64876 15.7819 6.46543 15.8586 6.35876 15.8919C6.14276 15.9559 5.92143 15.9946 5.69876 16.0086C5.35209 16.0086 5.02943 15.9086 4.70809 15.7086L4.71676 15.6999ZM9.28609 3.39327C8.83276 3.61993 8.40209 3.71593 7.97076 3.68393C7.90409 3.25327 7.97076 2.8106 8.15076 2.32593C8.31076 1.9126 8.52409 1.53927 8.81743 1.20593C9.12409 0.859268 9.49076 0.572601 9.90409 0.365934C10.3441 0.139268 10.7641 0.0192676 11.1641 -0.000732422C11.2174 0.452601 11.1641 0.899268 10.9974 1.37927C10.8454 1.80593 10.6188 2.19927 10.3308 2.5526C10.0408 2.89927 9.68076 3.18593 9.27343 3.3926L9.28609 3.39327Z" fill="black"></path></g><defs><clipPath id="clip0"><rect width="16" height="16" fill="white"></rect></clipPath></defs></svg>
               App Store
             </a>
-
           </div>
-
         </div>
-
       </section>
       <section>
         <div className='relative w-full bg-black-2'>
