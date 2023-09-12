@@ -131,15 +131,11 @@ function App() {
                 <div className='w-full md:w-[300px] lg:w-[510px]'>
                   <div>
                     <span style={{ fontWeight: 700 }}>5x more value than your cashback,
-
                     </span>
                     <span style={{ fontWeight: 400, color: '#9EA7AE' }}> only at the Uni Store.
-
                     </span>
                   </div>
-
                 </div>
-
               </div>
               <div className='w-full my-10 md:my-0 lg:pt-0 lg:w-[50%]'>
                 <div className='flex justify-center overflow-hidden'>
@@ -159,19 +155,14 @@ function App() {
                     </span>
                   </div>
                 </div>
-
               </div>
               <div className='w-full my-10 md:my-0 lg:pt-0 lg:w-[50%]'>
                 <div className='flex justify-center overflow-hidden'>
                   <div className='relative w-[280px] lg:w-[448px]'>
                     <img src="https://www.uni.cards/images/forex_globe.png" />
-
                   </div>
-
                 </div>
-
               </div>
-
             </div>
             <div className='flex mt-40 font-medium justify-start md:justify-center text-[28px] leading-[34px] md:text-[40px] md:leading-[1.2] md:text-center'>
               <p>
