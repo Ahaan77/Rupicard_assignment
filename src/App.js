@@ -86,7 +86,6 @@ function App() {
               <p style={{ opacity: 1, transform: 'none' }}>
                 lifetime free<span className='head mx-2'>; no joining fee, no annual charges.</span>
               </p>
-
             </div>
             <div className='flex md:justify-center py-12' style={{ opacity: 1, transform: 'none' }}>
               <div className='flex w-[96px] md:w-[150px] h-[96px] md:h-[150px] rounded-[50%] justify-center arrow'>
@@ -146,13 +145,9 @@ function App() {
                 <div className='flex justify-center overflow-hidden'>
                   <div className='relative w-[280px] lg:w-[448px]'>
                     <img src="https://www.uni.cards/images/five_x_rewards.png" alt="five_x" />
-
                   </div>
-
                 </div>
-
               </div>
-
             </div>
             <div className='flex md:items-center flex-col-reverse md:flex-row w-full font-medium justify-center  md:pt-[70px] py-0 md:py-[60px] md:px-8'>
               <div className='flex flex-col justify-start text-3xl leading-8 lg:text-[40px] text-[#1C2132] lg:leading-[1.2]'>
