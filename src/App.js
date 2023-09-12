@@ -1,9 +1,11 @@
 import './App.css';
 import { useWindowSize } from "@uidotdev/usehooks";
+import { useState } from 'react';
 
 function App() {
 
   const size = useWindowSize();
+  const [open, setOpen] = useState(false)
 
   return (
     <div>
@@ -358,7 +360,13 @@ function App() {
         <div className='w-full bottom-0 z-40 fixed md:hidden py-8 css-1s4jw3r'>
           <div className='w-[90vw] mx-auto md:mx-0 md:max-w-[280px] font-medium'>
             <div className='flex flex-col transition-all ease-in'>
-              <button className='p-4 rounded-lg z-10 flex justify-between items-center bg-[#FDEF78] text-black -mt-2 disabled:bg-[#AEAB8C]'>
+              {open === true ? <div className='phone-input-container' style={{ opacity: 1, transform: "none" }}>
+                <div className='flex items-center'>
+                  <input className='phone-input w-full text-lg border-0 outline-none rounded-tr-xl rounded-tl-xl py-3' placeholder='Enter your phone number' />
+                  <span className='w-6'></span>
+                </div>
+              </div> : null}
+              <button onClick={() => setOpen(!open)} className='p-4 rounded-lg z-10 flex justify-between items-center bg-[#FDEF78] text-black -mt-2 disabled:bg-[#AEAB8C]'>
                 <span>
                   Apply Now
                 </span>
