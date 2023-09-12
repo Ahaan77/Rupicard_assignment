@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.back {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  min-height: 80px;
+  z-index: 15;
+}
+
+.header-box {
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1330px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.consent-input {
+  padding: 0;
+  height: auto;
+  width: auto;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.head {
+  font-weight: 400 !important;
+  color: #9ea7ae;
+}
+
+@media screen and (min-width: 30em) {
+  .header-box {
+    padding: 0 32px;
+  }
+}
+
+.uni {
+  width: 85px;
+
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.arrow {
+  background: linear-gradient(140.86deg, #65ECD8 11.07%, #FDEF78 80.28%);
+}
+
+.text-uni-green {
+  --tw-text-opacity: 1;
+  color: rgba(90, 214, 196, var(--tw-text-opacity));
+}
+
+.uni-gradient-primary {
+  background: linear-gradient(90deg, var(#8fffef) 25%, var(#f9f490));
+}
+
+.download-bg {
+  background-image: linear-gradient(158deg, #5ad6c4, #fdef78);
+}
+
+.css-xcmdz3 {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  line-height: 1em;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: currentColor;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.bg-black-2 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(34, 34, 34, var(--tw-bg-opacity));
+}
+
+.text-grey-dark {
+  --tw-text-opacity: 1;
+  color: rgba(141, 141, 149, var(--tw-text-opacity));
+}
+
+@media screen and (min-width: 768px) {
+  .Logo_logo_white__zowGB {
+    width: 120px;
+    height: 90px;
+  }
+}
+
+.spacer-gradient {
+  background: linear-gradient(90deg,#00dcc8 26.31%,#00dcc8 61.59%,#fff061 74.32%,#fff061 85.31%);
+  transform: matrix(1,0,0,-1,0,0);
+}
+
+.css-1s4jw3r {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 110%);
+}
+@media screen and (min-width: 30em) {
+  .uni {
+    width: 85px;
+  }
+
+}
